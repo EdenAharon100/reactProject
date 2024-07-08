@@ -1,0 +1,34 @@
+#editWine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  /* Style for form inputs */
+  TextField {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for error messages */
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Style for buttons */
+  Button.Group {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  Button {
+    margin: 0 5px;
+  }
+  

@@ -1,0 +1,10 @@
+.aaa{
+   display: grid;
+   grid-template-columns: auto auto; 
+}
+.order-card{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}

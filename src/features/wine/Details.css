@@ -1,0 +1,14 @@
+.all-detail{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 15%;
+}
+.detail-text{
+    text-align: right;
+}
+.img-detail{
+    border-bottom: 2px darkgray solid;
+    border-left: 2px darkgray solid;
+    border-radius: 15px;
+
+}

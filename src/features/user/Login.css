@@ -1,0 +1,64 @@
+/* Login.css */
+
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+  } */
+  
+  .login-container {
+    height: 70vh;
+    width: 40vw;
+    background-image: url('../../../public/wine2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .form {
+    width: 85%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50%;
+  }
+  
+  .Lladel {
+    display: block;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .linput{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .submit-button {
+    width: 85%;
+    padding: 10px;
+    background-color: #d32f2f; /* MUI's red color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #b71c1c; /* Darker shade on hover */
+  }
+  

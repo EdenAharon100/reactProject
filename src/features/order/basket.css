@@ -1,0 +1,26 @@
+.myItems{
+    max-height: 550px;
+    overflow-y: auto;
+  
+}
+.basket{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    margin-top: 100px;
+    margin-bottom: 5%;
+}
+.sss{
+    display: grid;
+    grid-template-columns: 70% 20%;
+    height: 300px;
+    text-align: right;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.text{
+    display: block;
+}
+.img-button{
+    height: 10%;
+}

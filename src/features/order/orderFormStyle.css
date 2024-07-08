@@ -1,0 +1,58 @@
+/* orderFormStyle.css */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .address-input {
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .summary-text {
+    margin: 10px 0;
+  }
+  
+  .continue-button {
+    background-color: #ff5733;
+    color: #fff;
+    &:hover {
+      background-color: #e64721;
+    }
+  }
+  .orderForm{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  

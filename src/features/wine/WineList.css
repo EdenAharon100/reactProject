@@ -1,0 +1,23 @@
+.allWine{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: 500px ; */
+    gap: 40px;
+    background-color: #ffffff;
+    padding: 30px;
+    /* margin-top: 5px; */
+    border-radius: 5px;
+    border-top: 3px solid red;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.oneWine:hover {
+    background-color: rgba(210, 209, 209, 0.642);
+    box-shadow: 3px -1px #656565;
+}
+.oneWine{
+    font-size: 10px;
+    /* border: black 1px solid ; */
+}

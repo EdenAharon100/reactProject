@@ -1,0 +1,49 @@
+/* Footer.css */
+
+.footer {
+    background-color: rgb(6, 6, 6);
+    color: white;
+    display: flex;
+    border-top: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    /* width: 100%; */
+    padding: 0 20px;
+  
+    
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-side img {
+    height: 100%; /* Adjust as needed */
+    margin-right: 25%;
+  }
+  
+  .right-side {
+    display: flex;
+  }
+  
+  .footer-icon {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+  .footer-icon:hover .tooltip {
+    display: block;
+  }
+  

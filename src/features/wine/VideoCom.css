@@ -1,0 +1,21 @@
+video{
+    height: 50vh;
+    border-right: solid white 3px;
+    border-radius: 2%;
+    float: left;
+}
+.allVT{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-columns:  590px 420px;
+    background-color: black;
+    color: aliceblue;
+    /* margin-top: -5px; */
+    
+}
+.textDiv{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
