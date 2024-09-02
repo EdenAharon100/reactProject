@@ -33,8 +33,8 @@ const VideoCom = () => {
             </video>
             </div>
             <div className="textDiv">
-                <h2>hiivvvvvvvvvvvv</h2>
-                <h3>fdfddffd</h3>
+                <h2>יינות משובחים</h2>
+                <h3>מבצעים בקרוב</h3>
             </div>
         </div> </>);
 }

@@ -25,7 +25,7 @@ function EditWine() {
                     }
                 }
                 let res = await updateWine(item._id, newObj, userToken);
-                toast.success(' ! הנעל עודכנה בהצלחה ', {
+                toast.success(' !  עודכנה בהצלחה ', {
                     position: 'top-center',
                     autoClose: 3000, // מספר המילישני שתוצג ההתראה
                     hideProgressBar: false,
